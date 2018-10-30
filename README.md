@@ -16,7 +16,7 @@
   + **Branch 브랜치** 
            <pre><code>프로젝트 진행 중간에 새로운 기능을 추가하거나
            앞 내용은 같은데 뒷 내용이 다른 독립적인 개발 라인을 만들 때 사용하는 것 </pre></code>
-           
+* * *           
 ### 구조
 코드는 아래 세 단계에 걸쳐 저장된다.
 
@@ -58,7 +58,7 @@ git push 로 커밋된 저장소를 원격 저장소로 밀어넣는다.</pre></
 원격저장소 추가
 
 <pre><code>git remote add origin {원격서버주소}</pre></code> 
-
+* * *
 ### Commit
 커밋 합치기
 
@@ -84,6 +84,8 @@ $ git log --pretty=oneline // 각 커밋을 한 줄로 표시 </pre></code>
 <pre><code>$ git reset HEAD^ // 마지막 커밋 삭제
 $ git reset --hard HEAD // 마지막 커밋 상태로 되돌림
 $ git reset HEAD * // 스테이징을 언스테이징으로 변경, ref </pre></code>
+
+* * *
 ### Branch
 master 브랜치를 특정 커밋으로 옮기기
 
@@ -121,7 +123,7 @@ $ git checkout -b new-branch // 브랜치 생성과 동시에 체크아웃 </pre
 브랜치 이름 변경
 
 <pre><code>$ git branch -m {new name} // ref </pre></code>
-
+* * *
 ### Tag
 태그 생성
 
